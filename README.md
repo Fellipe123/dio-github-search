@@ -1,7 +1,88 @@
-# desafio-github-search
-Criando um App Android para compartilhar seu portfolio de projeto 
+# Desafio GitHub Search
 
-Criar um App Android simples que armazene um usuário do GitHub (informado em uma tela inicial) e liste todos os seus repositórios públicos. Garanta que o nome do usuário seja salvo e o App tenha a capacidade de redefinir essa informação.
+Aplicativo Android desenvolvido como desafio para buscar e listar repositórios públicos de um usuário do GitHub.
 
-![image](https://user-images.githubusercontent.com/5827265/188474294-4472bcc0-24ee-4ccd-80a8-7cee0372e7fa.png)
+---
 
+## 📱 Sobre o projeto
+
+O **GitHub Search App** é um aplicativo Android simples onde o usuário informa um **nome de usuário do GitHub** e, ao clicar em **Confirmar**, o app:
+
+* Busca e exibe os **repositórios públicos** do usuário
+* Permite **abrir o repositório no navegador** ao clicar no item da lista
+* Permite **compartilhar o link do repositório** pelo botão de compartilhamento
+
+---
+
+## 🧩 Funcionalidades
+
+* Campo para informar o nome de usuário do GitHub
+* Botão **Confirmar** para buscar os repositórios
+* Listagem de repositórios públicos
+* Clique no repositório abre o navegador
+* Botão para compartilhar o link do repositório
+
+---
+
+## 🏗️ Arquitetura
+
+O projeto segue uma separação de responsabilidades simples, inspirada em MVC:
+
+* **controller**: controle de fluxo e regras de negócio
+* **data**: comunicação com a API 
+* **domain**: modelos de dados
+* **helpers**: utilidades 
+* **ui**: Activities e Adapters
+
+---
+
+## 📂 Estrutura de pastas
+
+```
+src
+├── androidTest
+│   └── java/br/com/dev/searchapp
+├── main
+│   ├── java/br/com/dev/searchapp
+│   │   ├── controller
+│   │   ├── data
+│   │   ├── domain
+│   │   ├── helpers
+│   │   └── ui
+│   │       └── adapter
+│   └── res
+│       ├── drawable
+│       ├── layout
+│       ├── values
+│       └── xml
+└── test
+    └── java/br/com/dev/searchapp
+```
+
+---
+
+## 🔌 Tecnologias utilizadas
+
+* **Kotlin**
+* **Android SDK**
+* **RecyclerView**
+* **Retrofit**
+* **ConstraintLayout**
+* **GitHub REST API**
+
+---
+
+## 🖼️ Preview
+
+![Preview do App]()
+
+---
+
+## 🚀 Como executar o projeto
+
+1. Clone o repositório
+2. Abra no **Android Studio**
+3. Sincronize o Gradle
+4. Execute em um emulador ou dispositivo físico
+
+---

@@ -1,6 +1,6 @@
-package br.com.igorbag.githubsearch.data
+package br.com.dev.searchapp.data
 
-import br.com.igorbag.githubsearch.domain.Repository
+import br.com.dev.searchapp.domain.Repository
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
