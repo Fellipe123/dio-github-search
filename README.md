@@ -74,7 +74,7 @@ src
 
 ## 🖼️ Preview
 
-![Preview do App](<img width="1080" height="2340" alt="tela-inicial" src="https://github.com/user-attachments/assets/0992d0f2-8e4f-485b-a2a6-5431b6af7b5c" />)
+<img width="1080" height="2340" alt="tela-inicial" src="https://github.com/user-attachments/assets/0992d0f2-8e4f-485b-a2a6-5431b6af7b5c" />
 
 ---
 
